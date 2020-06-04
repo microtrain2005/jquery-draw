@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Draw on Canvas</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" type="text/css">
+      <link rel="stylesheet" href="dist/css/main.css" type="text/css">
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+    </head>
+    <body>
+      <div class="wrapper">
+        <nav>
+          <ul>
+              <li class="flex">
+                  <div id="trackX">X: 0</div>
+                  <div id="trackY">Y: 0</div>
+                  
+              </li>
+              <li class="flex">
+              <div id="selShape">No Shape Selected</div>
+            </li>
+              <li><button id="btnRect">Rectangle</button></li>
+              <li><button id="btnCircle">Circle</button></li>  
+              <li><button id="btnTriangle">Triangle</button></li>
+              <li><button id="btn3Point">3 Point Triangle</button></li>
+              <li><button id="btnIsos">Isosceles Triangle</button></li>
+              <li class='flex'>
+                  <button id="btnLine">Line</button>
+                  <button id="btnPath">Path</button>
+              </li>
+              <li><button id="btnLineWidth">Width</button></li>
+
+              <li class='flex'>
+
+                  <button id="btnSelColor"><input id="shapeColor" type="color" value="#1911d9">
+                    Set Color</button>
+                    <button id="btnRandomColor">Random Color</button>
+              
+              </li>
+      <!--         <li class='flex'>
+                <div id='flexColor'>
+                  <input id="shapeColor" type="color" value="#1911d9">
+                  <label for="shapeColor">Set Color</label>
+                </div>
+                
+              </li>  
+ -->
+
+              <li><button id="btnResetCanvas">Clear Canvas</button></li>
+           
+          </ul>
+        </nav>
+        <main>
+            
+        </main>
+      </div>
+      <script src="dist/js/main.js"></script>
+    </body>
+</html>
