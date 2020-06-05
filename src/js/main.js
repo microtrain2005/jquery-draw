@@ -207,8 +207,6 @@ var draw = (function() {
         ctx.lineTo(x2, y2);
         ctx.lineTo(x1, y2);
         ctx.fill();
-  
-  
       },
 
       //Draw a 3-point triangle
@@ -241,9 +239,7 @@ var draw = (function() {
             ctx.lineTo(x2,y2);
             ctx.lineTo(x2,y2+2*Math.abs(y1-y2));
         }
-        ctx.fill();
-  
-  
+        ctx.fill(); 
       },
   
       drawPath: function(){
@@ -266,8 +262,7 @@ var draw = (function() {
         $('#trackX').text('X: ');
         $('#trackY').text('Y: ');
         $('#selShape').text('No Shape Selected');
-        mouseDown = false;
-  
+        mouseDown = false;  
       },
   
       // Reset the canvas object 
